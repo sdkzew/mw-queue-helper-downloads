@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Step away. Stay in the queue.</title>
+  <desc id="desc">MW Queue Helper. Windows and Android preview. Manual controls, private application source.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#18151f"/><stop offset="1" stop-color="#0d0e12"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#a78bfa" stop-opacity=".17"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line"><stop stop-color="#baa5ff"/><stop offset="1" stop-color="#9de6cf"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1278" height="418" rx="28" fill="url(#bg)" stroke="#35303f"/>
+  <ellipse cx="1040" cy="180" rx="340" ry="280" fill="url(#glow)"/>
+  <path d="M770 420Q900 250 1280 240M850 420Q1010 300 1280 300" stroke="#a78bfa" stroke-opacity=".14" fill="none"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="65" cy="65" r="5" fill="#9de6cf"/>
+    <text x="84" y="71" fill="#c6bbdf" font-size="16" font-weight="700" letter-spacing="3">YOUR DESK ↔ YOUR POCKET</text>
+    <text x="58" y="160" fill="#f6f4fb" font-size="66" font-weight="800" letter-spacing="-2">Step away.</text>
+    <text x="58" y="235" fill="#b7a0ff" font-size="66" font-weight="800" letter-spacing="-2">Stay in the queue.</text>
+    <text x="61" y="283" fill="#b4aebf" font-size="22">Your next match. A little more freedom.</text>
+    <g font-size="15" font-weight="600">
+      <rect x="60" y="330" width="112" height="34" rx="17" fill="#25212f" stroke="#494057"/><text x="81" y="352" fill="#e7dfff">WINDOWS</text>
+      <rect x="184" y="330" width="112" height="34" rx="17" fill="#25212f" stroke="#494057"/><text x="204" y="352" fill="#e7dfff">ANDROID</text>
+      <rect x="308" y="330" width="110" height="34" rx="17" fill="#152923" stroke="#33574a"/><text x="331" y="352" fill="#a6e7cf">PREVIEW</text>
+    </g>
+  </g>
+  <g fill="none" stroke-width="2">
+    <rect x="900" y="130" width="132" height="100" rx="13" stroke="#9c84d5" fill="#1d1927" transform="rotate(-7 966 180)"/>
+    <path d="M945 244l50-6m-26-5 2 9" stroke="#8b7baf"/>
+    <rect x="1110" y="118" width="70" height="136" rx="14" stroke="#91ccb7" fill="#15211e" transform="rotate(9 1145 186)"/>
+    <path d="m1131 191 21-21m-17 0h17v17" stroke="#a2e6ce"/>
+    <path d="M1050 185h38" stroke="url(#line)" stroke-dasharray="2 9" stroke-width="4"/>
+    <path d="m948 174 15 15 25-31" stroke="#baa5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>
